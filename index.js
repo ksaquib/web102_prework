@@ -38,13 +38,11 @@ function addGamesToPage(games) {
 
         // set the inner HTML using a template literal to display some info 
         // about each game
-        console.log(i)
         const game = ` 
         <img class="game-img" src=${games[i]["img"]} />
         <h4>${games[i]["name"]}</h4>
         <p>${games[i]["description"]}</p>    
       ` 
-      console.log(game_card)
         game_card.innerHTML = game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
@@ -150,7 +148,6 @@ const descriptionContainer = document.getElementById("description-container");
 
 // use filter or reduce to count the number of unfunded games
 const count_unfunded_games = GAMES_JSON.filter(value => value.pledged < value.goal).length
-console.log(count_unfunded_games)
 // create a string that explains the number of unfunded games using the ternary operator
 const templateString = `A total of $${totalRaised.toLocaleString('en-US')} has been raised for ${totalGames} games. Currently, ${count_unfunded_games} ${count_unfunded_games == 1 ? 'game remains' : 'games remain'} unfunded. We need your help to fund these amazing games!`
 
