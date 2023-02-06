@@ -22,11 +22,7 @@ Here's a walkthrough of implemented features:
 <img src='prework.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Chrome Capture Extension](https://leolime.com/) for macOS
- -->
-
+GIF created with ... [Chrome Capture Extension](https://leolime.com/) for macOS
 
 ## License
 
